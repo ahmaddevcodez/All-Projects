@@ -1,0 +1,27 @@
+
+:root {
+
+  --normalFont: 14px;
+  --white: #fff;
+  --lightBlue: #00bfd8;
+  --brown-black: #393939;
+  --lighgray: #626262;
+
+}
+
+
+.slide{ 
+  display: grid;
+  place-items: center;
+}
+
+.trusted h2 {
+  text-align: center;
+  margin: 7rem 0;
+}
+
+.swiper {
+  background-color: #f7fcfd;
+  padding: 4.5rem 1.5rem !important;
+  z-index: -1 !important;
+}

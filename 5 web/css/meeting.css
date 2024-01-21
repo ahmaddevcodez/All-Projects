@@ -1,0 +1,134 @@
+:root{
+    --normalFont : 14px ;
+    --white : #fff ;
+    --lightBlue : #00bfd8;
+    --brown-black : #393939;
+    --lighgray : #c4d8dc;
+    --gray :  #626467;
+    --crossgray : #777b7e;
+    --border-color-input : #CEDEE2 ;
+}
+
+
+#meeting-blue-bg {
+background-color: #F9FAFC;
+margin: 10rem 0;
+padding: 10rem 0;
+
+}
+
+
+.meeting-form-section{
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+}
+
+.meeting-content{
+    margin-right: 5rem;
+}
+.meeting-content h2{
+    font-weight: bold;
+    line-height: 1.42;
+}.meeting-content p{
+    margin: 1rem 0;
+}
+
+.meeting-content ul li {
+    display: flex;
+    align-items: center;
+}
+
+.meeting-content ul li i {
+    margin-right: 1rem; font-size: 17px;
+    color: var(--lightBlue);
+}
+
+
+.meeting-form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+
+}
+
+.meeting-form form input , select {
+width: 100%;
+font-size:12px;
+padding: 20px 12px;
+border-radius: 5px;
+outline: none;
+border: 2px solid var(--border-color-input);
+margin: 1rem 0;
+
+}
+
+.meeting-form form input {
+    padding-bottom: 12px;
+}.meeting-form form select {
+    padding: 15px 12px;
+}
+.meeting-form form input:focus + label{
+   top: 15px;
+   transform: translateY(0);
+
+}
+
+.meeting-form form input:valid + label{
+    top: 15px;
+    transform: translateY(0);
+ 
+ }
+.meeting-form form .input {
+    position: relative;
+    width: 100%;
+    
+}
+
+
+.meeting-form select{
+    font-size:12px;
+    font-weight: bold;
+color: var(--gray);
+
+}
+.meeting-form form .input label{
+transition: 0.5s;
+    position:absolute;
+    top: 50%;
+font-size:12px;
+left: 14px;
+font-weight: bold;
+color: var(--gray);
+transform: translateY(-50%);
+}
+.agreement{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20px auto;
+    align-items: center;
+    margin: 1rem 0;
+}
+.meeting-form form .btn{
+    width: 100%;
+}
+
+
+
+
+@media only screen and (max-width:950px){ 
+    
+
+
+    .meeting-form-section{
+        grid-template-columns:1fr ;
+    }
+    .meeting-form form {
+        margin-top: 3rem;
+    }
+    
+    
+    
+    
+      }

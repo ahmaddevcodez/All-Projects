@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | E-commerce product page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      /* .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      } */
+    </style>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <!--////////////////////////////////////////////////////////////////NAV-BAR START//////////-->
+
+        <nav class="main-nav flex align-items-center justify-content-between">
+          <div class="flex">
+            <div class="sneakers flex align-items-center">
+              <h1>sneakers</h1>
+            </div>
+            <div>
+              <ul class="nav-ul flex align-items-center list-style">
+                <li class="nav-li">Collections</li>
+                <li class="nav-li">Men</li>
+                <li class="nav-li">Women</li>
+                <li class="nav-li">About</li>
+                <li class="nav-li">Contact</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="nav-end-content flex align-items-center">
+            <div class="nav-cart-icon">
+              <!-- <div class="cart_item"><span> </span></div> -->
+              <div class="nav-cart-icon cart-img">
+                <div class="">
+                  <img class="cart-img" src="./images/icon-cart.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="nav-img">
+              <div class="">
+                <div class="">
+                  <img
+                    class="nav-sm-img"
+                    src="./images/image-avatar.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!--////////////////////////////////////NAV-BAR-END//////////////////////////////////////-->
+
+        <!--////////////////////////////////////MAIN-CONTENT-START///////////////////////////////-->
+
+        <article class="article flex">
+          <div>
+            <div class="main-content-img">
+              <div class="main-img">
+                <img
+                  class="sneakers-img"
+                  src="./images/image-product-1.jpg"
+                  alt="main-content-img"
+                />
+              </div>
+            </div>
+            <div class="small-img flex justify-content-between">
+              <div>
+                <img
+                  id="t2est"
+                  class="small-sneakers-img"
+                  src="./images/image-product-1.jpg"
+                  alt="sneakers-img"
+                />
+              </div>
+              <div>
+                <img
+                  class="small-sneakers-img"
+                  src="./images/image-product-2.jpg"
+                  alt="sneakers-img"
+                />
+              </div>
+              <div>
+                <img
+                  class="small-sneakers-img"
+                  src="./images/image-product-3.jpg"
+                  alt="sneakers-img"
+                />
+              </div>
+              <div>
+                <img
+                  class="small-sneakers-img boot"
+                  src="./images/image-product-4.jpg"
+                  alt="sneakers-img"
+                />
+              </div>
+            </div>
+          </div>
+          <aside class="main-texts">
+            <div class="paragraph">
+              <p>SNEAKER COMPANY</p>
+            </div>
+            <div class="content-heading">
+              <h1>
+                Fall Limited Edition <br />
+                Sneakers
+              </h1>
+            </div>
+            <div class="paragraph-2">
+              These low-profile sneakers are your perfect casual wear companion.
+              Featuring a durable rubber outer sole, they’ll withstand
+              everything the weather can offer.
+            </div>
+            <div class="test">
+              <div class="sale-main-div flex">
+                <div class="heading-h2">
+                  <h2 class="h2">$125.00</h2>
+                </div>
+                <div class="flex align-items-center">
+                  <div class="flat-sale">
+                    <div class="flat-sale-div">
+                      <h4 class="flat-sale-h2 align-items-center">50%</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="sale"><p>$250.00</p></div>
+
+            <div class="flex">
+              <button class="button-zero">
+                <img class="minus" src="./images/icon-minus.svg" alt="minus" />
+                <p class="zero">0</p>
+                <img class="plus" src="./images/icon-plus.svg" alt="plus" />
+              </button>
+              <div class="button-cart">
+                <div>
+                  <button class="button-add">
+                    <svg
+                      width="22"
+                      height="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M20.925 3.641H3.863L3.61.816A.896.896 0 0 0 2.717 0H.897a.896.896 0 1 0 0 1.792h1l1.031 11.483c.073.828.52 1.726 1.291 2.336C2.83 17.385 4.099 20 6.359 20c1.875 0 3.197-1.87 2.554-3.642h4.905c-.642 1.77.677 3.642 2.555 3.642a2.72 2.72 0 0 0 2.717-2.717 2.72 2.72 0 0 0-2.717-2.717H6.365c-.681 0-1.274-.41-1.53-1.009l14.321-.842a.896.896 0 0 0 .817-.677l1.821-7.283a.897.897 0 0 0-.87-1.114ZM6.358 18.208a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm10.015 0a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm2.021-7.243-13.8.81-.57-6.341h15.753l-1.383 5.53Z"
+                        fill="#FFE9BF"
+                        fill-rule="nonzero"
+                      />
+                    </svg>
+                    <p class="cart-text flex align-items-center">Add to cart</p>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </article>
+      </div>
+    </section>
+  </body>
+</html>

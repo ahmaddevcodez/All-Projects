@@ -1,0 +1,309 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  transition: all 1s ease-in-out 0.6s;
+}
+.container {
+  max-width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 95%;
+  transition: all 1.2s ease-in-out 0.2s;
+  /* transform-origin: 7px; */
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.justify-content-around {
+  justify-content: space-around;
+}
+.justify-content-flexend {
+  justify-content: flex-end;
+}
+.justify-content-flexstart {
+  justify-content: flex-start;
+}
+.align-items-center {
+  align-items: center;
+}
+.gap-10 {
+  gap: 10px;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+.list-style {
+  list-style: none;
+}
+/*------------------------------------------NAV--------------------------------------------*/
+
+.sneakers {
+  font-family: "Kumbh Sans", sans-serif;
+  color: hsl(220, 13%, 13%);
+  margin-right: 56px;
+  font-size: 23px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+.nav-ul {
+  font-size: 16px;
+  color: hsl(219, 9%, 45%);
+  gap: 34px;
+}
+/* div svg path {
+  fill:red;
+} */
+.nav-li {
+  padding: 45px 0px;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+.img {
+  width: 50px;
+  height: auto;
+}
+.main-nav {
+  border-bottom: 0.7px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 90px;
+}
+
+.nav-sm-img {
+  width: 50px;
+  transition: all 1.2s ease-in-out 0.2s;
+  transform-origin: 7px;
+}
+
+.cart-img {
+  margin-right: 10px;
+}
+
+.button-zero:hover {
+  border-radius: 10px;
+  transition: all 1s cubic-bezier(0.95, 0.05, 0.795, 0.035) 0.2s;
+}
+/*--------------------------------------STYLING-NAV-LINKS--------------------------------------------*/
+.nav-li:hover {
+  color: hsl(220, 13%, 13%);
+  cursor: pointer;
+  border-bottom: 5px Orange solid;
+  border-radius: 2px;
+  background-color: hsl(0, 0%, 100%);
+}
+.img:hover {
+  border: 2px Orange solid;
+  cursor: pointer;
+}
+.icon:hover {
+  cursor: pointer;
+  background-color: hsl(0, 0%, 100%);
+}
+.nav-sm-img:hover {
+  border: 3px solid Orange;
+  border-radius: 100%;
+  cursor: pointer;
+}
+/*-----------------------------------------------------------------------------------------------*/
+/*----------------------------------------main-content--------------------------------------------*/
+.sneakers-img {
+  width: 447px;
+  height: 445px;
+  border-radius: 14px;
+}
+.small-sneakers-img {
+  transition: all 1s ease-in-out 0.6s;
+}
+.article {
+  margin-right: 47px;
+  margin-left: 47px;
+}
+.small-img {
+  width: 447px;
+}
+.small-sneakers-img {
+  width: 88px;
+  height: 88px;
+  gap: 29px;
+  border-radius: 14px;
+  margin-top: 34px;
+}
+aside {
+  margin-left: 126px;
+  margin-top: 64px;
+}
+.paragraph {
+  margin-top: 64px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-family: "Kumbh Sans", sans-serif;
+  color: Orange;
+  letter-spacing: 1.1px;
+  font-size: 16px;
+}
+.content-heading {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 33px;
+  margin-bottom: 20px;
+}
+h1 {
+  font-weight: 700;
+}
+.paragraph-2 {
+  font-family: "Kumbh Sans", sans-serif;
+  color: hsl(219, 9%, 45%);
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+.h2 {
+  font-family: "Kumbh Sans", sans-serif;
+  color: hsl(220, 13%, 13%);
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.sale {
+  color: hsl(220, 14%, 75%);
+  text-decoration: line-through;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.main-button {
+  /* width: 150px; */
+  font-family: "Kumbh Sans", sans-serif;
+}
+.button-zero {
+  border-radius: 8px;
+  border: none;
+  padding: 15px 15px 10px 10px;
+}
+.minus {
+  margin-bottom: 3.7px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+.zero {
+  display: inline-block;
+  margin-right: 30px;
+  margin-left: 30px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 20px;
+}
+.button-add {
+  font-family: "Kumbh Sans", sans-serif;
+  /* padding: 15px 15px 10px 10px; */
+  padding: 15px 60px 15px 60px;
+  border: none;
+  border-radius: 8px;
+  margin-left: 15px;
+  background-color: Orange;
+  cursor: pointer;
+
+  color: hsl(0, 0%, 100%);
+}
+.cart-text {
+  display: inline-block;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+}
+.test {
+  position: relative;
+}
+
+/*--------------------------------------STYLING-main-content-LINKS-------------------------------*/
+.button-cart:hover {
+  border: none;
+  cursor: pointer;
+}
+.button-zero:hover {
+  border: none;
+  cursor: pointer;
+}
+.button-zero:hover {
+  border: 2px Orange solid;
+}
+.flat-sale-h2:hover {
+  color: hsl(220, 13%, 13%);
+  cursor: pointer;
+  border-radius: 2px;
+}
+.cart-img:hover {
+  cursor: pointer;
+}
+/*--------------------------------------main-content-BERORE AND AFTER----------------------------*/
+div:has(> .small-sneakers-img) {
+  position: relative;
+}
+div:has(> .small-sneakers-img):hover::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  opacity: 0.5;
+  transition: all 1s cubic-bezier(0.95, 0.05, 0.795, 0.035) 0.2s;
+}
+div:has(> .small-sneakers-img) {
+  transition: all 1.2s ease-in-out 0.9s;
+}
+div:has(> .button-add) {
+  position: relative;
+}
+div:has(> .button-add):hover::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  opacity: 0.5;
+}
+
+.nav-cart-icon {
+  position: relative;
+}
+.cart-img:hover::before {
+  content: "3";
+  position: absolute;
+  background-color: hsl(26, 100%, 55%);
+  color: hsl(223, 64%, 98%);
+  border-radius: 7px 6px;
+  padding: 0px 4px;
+  display: inline-block;
+  top: -13px;
+  right: 3px;
+  padding: 0px 4px;
+  transition: all 1.2s ease-in-out 0.2s;
+}
+
+.h2 {
+  position: relative;
+}
+.flat-sale-h2 {
+  color: Orange;
+  font-family: "Kumbh Sans", sans-serif;
+  margin-left: 20px;
+  background-color: hsl(25, 100%, 94%);
+  border-radius: 5px;
+  padding: 2px 5px;
+  position: absolute;
+  top: 33%;
+  transform: translate(-50%, -50%);
+  margin-left: 30px;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+/*--------------------------------------small-sneakers-img-------------------------------*/

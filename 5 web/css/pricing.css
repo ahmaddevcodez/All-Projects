@@ -1,0 +1,107 @@
+:root {
+  --normalFont: 14px;
+  --white: #fff;
+  --lightBlue: #00bfd8;
+  --brown-black: #393939;
+  --lighgray: #626262;
+}
+
+section.pricing {
+  margin-top: 10rem;
+}
+section.pricing .pricing-content {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+section.pricing .pricing-content p {
+  margin: 3rem;
+}
+
+.price-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+}
+
+.price-cards .card {
+  text-align: center;
+  border: 1px solid var(--lighgray);
+  border-radius: 10px;
+  padding: 5rem 3rem;
+  position: relative;
+  overflow: hidden;
+}
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.price-cards .card-wrapper .btn {
+  transform: translate(0, -26px);
+}
+.price-cards .card > h2 {
+  font-weight: 600;
+}
+
+.price-cards .card > p {
+  margin: 2rem 0;
+}
+.price-cards .card hr {
+  margin: 3rem 0;
+  background-color: var(--lighgray);
+  opacity: 0.4;
+}
+
+.price span {
+  font-size: 6rem;
+  color: var(--lightBlue);
+  font-weight: 700;
+}
+span.currency {
+  font-size: 3rem;
+}
+.card ul li {
+  display: grid;
+  grid-template-columns: 30px auto;
+  margin: 1rem;
+}
+.card ul li i {
+  font-size: 20px;
+  margin-top: 1.1px;
+}
+.card ul li i.fa-check {
+  color: var(--lightBlue);
+}
+.card ul li i.fa-xmark {
+  color: var(--gray);
+}
+.card ul li p {
+  font-size: 14px;
+}
+
+.ribbon {
+  position: absolute;
+
+  background-color: var(--lightBlue);
+  color: var(--white);
+  font-weight: bold;
+  font-size: 14px;
+  padding: 14px 4rem;
+  transform: rotate(45deg);
+
+  top: 17px;
+  right: -39px;
+}
+
+@media only screen and (max-width: 950px) {
+  .price-cards {
+    justify-content: center;
+    gap: 3rem;
+  }
+
+  section.pricing .pricing-content {
+    width: 100%;
+  }
+}

@@ -1,0 +1,160 @@
+*,
+* img {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: "Josefin Sans";
+}
+html {
+  font-size: 62.5%;
+  font-family: "Josefin Sans";
+}
+head {
+  position: relative;
+}
+.container {
+  /* position: relative; */
+  max-width: 1030px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.justify-content-around {
+  justify-content: space-around;
+}
+.justify-content-flexend {
+  justify-content: flex-end;
+}
+.justify-content-flexstart {
+  justify-content: flex-start;
+}
+.align-items-center {
+  align-items: center;
+}
+.gap-10 {
+  gap: 10px;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+.list-style {
+  list-style: none;
+}
+main {
+  display: grid;
+  /* grid-template-columns: repeat(2, 1fr); */
+}
+
+/*----------------------------------------back-bg-img-----------------------------------------------*/
+.bg-img {
+  width: 60%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  user-select: none;
+  pointer-events: none;
+  /* display: ; */
+}
+
+/*----------------------------------------base-img-----------------------------------------------*/
+.base-img {
+  width: 40vw;
+  min-height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 1;
+  right: 0;
+  z-index: -1;
+  user-select: none;
+  pointer-events: none;
+}
+/*--------------------------------------ALL-TEXTS-----------------------------------------------*/
+/*-----------------------------------main-heading-img----------------------------------------------*/
+#main-heading-img {
+  margin-top: 6rem;
+}
+
+/*----------------------------------------coming-soon----------------------------------------------*/
+.coming-soon {
+  margin-top: 13rem;
+  margin-bottom: 2.3rem;
+}
+.span {
+  font-size: 8rem;
+  font-weight: 100;
+  color: #c59497;
+}
+.span-2 {
+  font-size: 6rem;
+  letter-spacing: 1.3rem;
+  font-weight: 600;
+  font-family: "Josefin Sans";
+  color: #433a3b;
+}
+.span-3 {
+  font-size: 6rem;
+  letter-spacing: 1.3rem;
+  color: #433a3b;
+}
+/*---------------------------------------text-para-------------------------------------------------*/
+.text-para {
+  font-size: 1.2rem;
+  color: #c59497;
+  letter-spacing: 1px;
+  line-height: 13px;
+  margin-bottom: 4rem;
+}
+/*-----------------------------------BUTTON-DESIGN-------------------------------------------------*/
+
+.email-input {
+  flex-grow: 1;
+  padding: 14px;
+  padding-left: 25px;
+  padding-right: 18rem;
+  border: 2px solid #e16f6e;
+  /* border: none; */
+  border-radius: 80px 80px 80px 80px;
+}
+.email-input:click {
+  border: 2px solid #e16f6e;
+}
+.submit-button {
+  display: inline;
+  position: absolute;
+  padding: 9.5px 40px;
+  /* margin-right: 19px; */
+  background-image: linear-gradient(
+    to right,
+    hsl(0, 80%, 86%) 20%,
+    hsl(0, 74%, 74%) 50%
+  );
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  /* margin-right: 300rem; */
+}
+.btn {
+  display: inline;
+  margin-right: 90px;
+}
+.submit-button:hover {
+  background-color: #45a049;
+}

@@ -1,0 +1,65 @@
+
+:root {
+
+  --normalFont: 14px;
+  --white: #fff;
+  --lightBlue: #00bfd8;
+  --brown-black: #393939;
+  --lighgray: #626262;
+
+}
+
+
+
+/*business*/
+section.business{
+  margin-top: 10.rem;
+}
+ 
+ 
+section.business .content{
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+section.business .boxes{
+  display: flex;
+  justify-content: space-between;
+  gap: 3.5rem;
+  margin-top: 5rem;
+}
+section.business .boxes .box{
+  border:1px solid var(--lighgray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 15px;
+  padding: 3.5rem;
+}
+section.business .boxes img{
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+section.business .boxes .box h3{
+ margin: 3rem 0;
+}
+@media only screen and (max-width:900px) {
+  section.business .content {
+    width: 100%;
+
+  }
+  @media only screen and (max-width:950px){ 
+   .boxes{
+      flex-direction: column;
+   }
+   section.business .content{
+      width: 80%;
+ 
+   }
+   
+
+}
+}
